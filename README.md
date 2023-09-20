@@ -1,5 +1,5 @@
 #### Developed and Maintained by: Roney Dsilva
-# Type Checker Module for App Connect
+# Type Checker Formatter for App Connect
 
 The `Type Checker` module provides a set of type checking functions for various data types. Each function checks the type of input data and returns a boolean value indicating whether the input matches the expected type.
 
