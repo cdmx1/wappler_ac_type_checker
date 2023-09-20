@@ -1,0 +1,208 @@
+{
+  formatters: [
+    {
+    type: 'method_isNumber',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is Number',
+    title: 'Is Number',
+    icon: 'fa fa-lg fa-hashtag',
+    state: 'opened',
+    help: 'Check if Input is Number or Not',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isUUID',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is UUID',
+    title: 'Is UUID',
+    icon: 'fa fa-lg fa-key',
+    state: 'opened',
+    help: 'Check if Input is a UUID',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isBool',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is Boolean',
+    title: 'Is Boolean',
+    icon: 'fa fa-lg fa-toggle-on',
+    state: 'opened',
+    help: 'Check if Input is a Boolean',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isString',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is String',
+    title: 'Is String',
+    icon: 'fa fa-lg fa-font',
+    state: 'opened',
+    help: 'Check if Input is a String',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isArray',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is Array',
+    title: 'Is Array',
+    icon: 'fa fa-lg fa-list',
+    state: 'opened',
+    help: 'Check if Input is an Array',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isObject',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is Object',
+    title: 'Is Object',
+    icon: 'fa fa-lg fa-object-group',
+    state: 'opened',
+    help: 'Check if Input is an Object',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isFunction',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is Function',
+    title: 'Is Function',
+    icon: 'fa fa-lg fa-cogs',
+    state: 'opened',
+    help: 'Check if Input is a Function',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isNull',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is Null',
+    title: 'Is Null',
+    icon: 'fa fa-lg fa-ban',
+    state: 'opened',
+    help: 'Check if Input is Null',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isUndefined',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is Undefined',
+    title: 'Is Undefined',
+    icon: 'fa fa-lg fa-question-circle',
+    state: 'opened',
+    help: 'Check if Input is Undefined',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isDate',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is Date',
+    title: 'Is Date',
+    icon: 'fa fa-lg fa-calendar',
+    state: 'opened',
+    help: 'Check if Input is a Date',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isRegExp',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is Regular Expression',
+    title: 'Is Regular Expression',
+    icon: 'fa fa-lg fa-sliders-h',
+    state: 'opened',
+    help: 'Check if Input is a Regular Expression',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isNaN',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is NaN',
+    title: 'Is NaN',
+    icon: 'fa fa-lg fa-ban',
+    state: 'opened',
+    help: 'Check if Input is NaN',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  }   
+]
+}
