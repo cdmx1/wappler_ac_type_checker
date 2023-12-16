@@ -35,5 +35,11 @@ dmx.Formatters('any', {
     },
     isNaN: function(input) {
       return Number.isNaN(input);
+    },
+    isNumberArray: function(input) {
+      return Array.isArray(input) && input.every(item => typeof item === 'number');
+    },
+    isStringArray: function(input) {
+        return Array.isArray(input) && input.every(item => typeof item === 'string');
     }
   });

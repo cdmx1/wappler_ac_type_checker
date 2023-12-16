@@ -203,6 +203,40 @@
     linkFiles: [
     {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
     ],  
-  }   
+  },
+  {
+    type: 'method_isNumberArray',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is NumberArray',
+    title: 'Is Number Array',
+    icon: 'fa fa-lg fa-list-ol',
+    state: 'opened',
+    help: 'Check if Input is Number Array',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  },
+  {
+    type: 'method_isStringArray',
+    groupTitle: 'Type Checker',
+    groupIcon: 'fa fa-lg fa-check-circle',
+    addTitle: 'Is StringArray',
+    title: 'Is String Array',
+    icon: 'fa fa-lg fa-list-alt',
+    state: 'opened',
+    help: 'Check if Input is String Array',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-type-checker-formatter.js', dst: 'js/dmx-type-checker-formatter.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-type-checker-formatter.js', type: 'js', defer: true},
+    ],  
+  }      
 ]
 }
